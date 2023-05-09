@@ -2,13 +2,20 @@ export default function Index() {
   return (
     <>
       <h1>Jinsho&apos;s Alchemical Droughts</h1>
-      <h2>Location:</h2>
-      <p>
-        <a href="/wiki/neverwinter">Neverwinter</a>, in the{" "}
-        <a href="/wiki/neverwinter_merchants_quarter">
-          Merchant&apos;s Quarter
-        </a>
-      </p>
+      <h2>Summary</h2>
+      <ul>
+        <li>
+          <strong>Location:</strong> <a href="/wiki/neverwinter">Neverwinter</a>
+          , in the{" "}
+          <a href="/wiki/neverwinter_merchants_quarter">
+            Merchant&apos;s Quarter
+          </a>
+        </li>
+        <li>
+          <strong>Owner:</strong>{" "}
+          <a href="/wiki/jinsho_maricyn">Jinsho Maricyn</a>
+        </li>
+      </ul>
       <h3>Wares Sold</h3>
       <ol>
         <li>Healing potions - 50 gp each</li>
@@ -131,7 +138,9 @@ export default function Index() {
         with an influential and knowledgeable alchemist.
       </p>
 
-      <h2>Involving Juthro in the Quest</h2>
+      <h2>
+        Involving <a href="/wiki/juthro_maricyn">Juthro</a> in the Quest
+      </h2>
       <p>
         Yes, Juthro could definitely be involved in this quest. Perhaps he was
         present during the theft of the alchemical artifact and has valuable

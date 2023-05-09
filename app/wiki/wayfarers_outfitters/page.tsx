@@ -3,9 +3,10 @@ export default function Index() {
     <>
       <h1>Wayfarer&apos;s Outfitters</h1>
       <p>
-        Wayfarer&apos;s Outfitters is a store owned by Ahtva Aelnor that focuses
-        on gear and supplies for those who are traveling long distances and
-        exploring unfamiliar territory.
+        Wayfarer&apos;s Outfitters is a store owned by{" "}
+        <a href="/wiki/ahtva_aelnor">Ahtva Aelnor</a> that focuses on gear and
+        supplies for those who are traveling long distances and exploring
+        unfamiliar territory.
       </p>
       <ul>
         <li>
