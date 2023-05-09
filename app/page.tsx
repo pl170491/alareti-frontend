@@ -4,8 +4,13 @@
 export default function Home() {
   return (
     <>
-      <h1>Hello, world!</h1>
-      <a href="/Neverwinter">Neverwinter</a>
+      <h1>DnD Wiki for the Guyarchy</h1>
+      <a href="/wiki/neverwinter">Neverwinter</a>
+      <br />
+      <a href="/wiki/jinshos_alchemical_droughts">
+        Jinsho&apos;s Alchemical Droughts
+      </a>
+      <br />
     </>
   );
 }
