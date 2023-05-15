@@ -26,6 +26,36 @@ export default function Index() {
         <li>
           <a href="/wiki/barthens_provisions">Barthen&apos;s Provision</a>
         </li>
+        <li>
+          <a href="/wiki/potions_and_enchantments">Potions and Enchantments</a>
+        </li>
+        <li>
+          <a href="/wiki/prancing-mare">Prancing Mare</a>
+        </li>
+        <li>
+          <a href="/wiki/white-light">The White Light</a>
+        </li>
+      </ul>
+      <h2>Key People</h2>
+      <ul>
+        <a href="/wiki/delilah-merrison">
+          <li>Delilah Merrison</li>
+        </a>
+        <a href="">
+          <li>Somar Trench</li>
+        </a>
+        <a href="">
+          <li>Caspian Ren</li>
+        </a>
+        <a href="">
+          <li>Tiberius Crass</li>
+        </a>
+        <a href="">
+          <li>Koana Angar</li>
+        </a>
+        <a href="">
+          <li>Travis Gundark</li>
+        </a>
       </ul>
       <h2>Description</h2>
       <p>
@@ -44,10 +74,10 @@ export default function Index() {
       </p>
       <p>
         To the east, the sparkling waters of the Neverwinter River flow through
-        the heart of the city, while to the north, the imposing form of Castle
-        Never stands atop a high hill. The castle&apos;s battlements offer an
-        impressive view of the city, and the banners of Neverwinter&apos;s noble
-        houses flutter in the breeze.
+        the heart of the city, while in the mid-west, the imposing form of
+        Castle Never stands atop a high hill. The castle&apos;s battlements
+        offer an impressive view of the city, and the banners of
+        Neverwinter&apos;s noble houses flutter in the breeze.
       </p>
       <p>
         As you explore the city, you&apos;ll find that Neverwinter is a place of

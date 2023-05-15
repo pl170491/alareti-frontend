@@ -4,11 +4,15 @@
 export default function Home() {
   return (
     <>
-      <h1>DnD Wiki for the Guyarchy</h1>
-      <a href="/wiki/neverwinter">Neverwinter</a>
-      <br />
-      <a href="/wiki/abdiel">Abdiel</a>
-      <br />
+      <h1>DnD Resources for the Guyarchy</h1>
+      <ul>
+        <li>
+          <a href="/wiki">Wiki</a>
+        </li>
+        <li>
+          <a href="/log">Adventure Log</a>
+        </li>
+      </ul>
     </>
   );
 }
