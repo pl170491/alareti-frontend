@@ -31,6 +31,13 @@ export default function Index() {
         <li>
           Players met Tiberius, Captain of the Guard&apos;s East Wall Garrison
         </li>
+        <li>
+          Players were asked by Gunthar and Orlan to find adamantium so they
+          could make advanced armor. They offered 500 gp for however much would
+          be enough to make a set of armor. They informed them that the area
+          surrounding Neverwinter had none of the ore, but that the Kingdom of
+          Keobold to the south had ore deposits.
+        </li>
         <li>Players stopped at the Prancing Mare for the night</li>
       </ul>
     </>
