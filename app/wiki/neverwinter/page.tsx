@@ -13,6 +13,12 @@ export default function Index() {
           <a href="/wiki/abdiel">Abdiel</a>
         </li>
       </ul>
+      <h2>Organizations</h2>
+      <ul>
+        <li>
+          <a href="/wiki/council-of-neverwinter">Council of Neverwinter</a>
+        </li>
+      </ul>
       <h2>List of Shops</h2>
       <ul>
         <li>
