@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <>
-      <h1>Adventure Log for May 5th, 2023</h1>
+      <h1>Adventure Log for May 9th, 2023</h1>
       <h2>Key Events</h2>
       <ul>
         <li>
