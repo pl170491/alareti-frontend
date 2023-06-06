@@ -18,6 +18,9 @@ export default function Index() {
         <li>
           <a href="/wiki/council-of-neverwinter">Council of Neverwinter</a>
         </li>
+        <li>
+          <a href="/wiki/thieves-guild">Thieves Guild</a>
+        </li>
       </ul>
       <h2>List of Shops</h2>
       <ul>
