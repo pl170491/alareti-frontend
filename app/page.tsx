@@ -76,32 +76,32 @@ export default function CreateWiki() {
   // const resStatus = res.status;
   // console.log(resStatus);
   return (
-    <DefaultWiki></DefaultWiki>
-    // <>
-    //   <form onSubmit={handleCreateSubmit}>
-    //     <label htmlFor="createWikiTitle">Create a new wiki:</label>
-    //     <br />
-    //     <input
-    //       type="text"
-    //       id="createWikiTitle"
-    //       name="createWikiTitle"
-    //       value={createWikiTitle}
-    //       onChange={handleCreateWikiTitleChange}
-    //     />
-    //     <input type="submit" value="Create" />
-    //   </form>
-    //   <form onSubmit={handleDeleteSubmit}>
-    //     <label htmlFor="createWikiTitle">Delete said wiki:</label>
-    //     <br />
-    //     {/* <input
-    //       type="text"
-    //       id="createWikiTitle"
-    //       name="createWikiTitle"
-    //       value={createWikiTitle}
-    //       onChange={handleCreateWikiTitleChange}
-    //     /> */}
-    //     <input type="submit" value="Delete" />
-    //   </form>
-    // </>
+    // <DefaultWiki></DefaultWiki>
+    <>
+      <form onSubmit={handleCreateSubmit}>
+        <label htmlFor="createWikiTitle">Create a new wiki:</label>
+        <br />
+        <input
+          type="text"
+          id="createWikiTitle"
+          name="createWikiTitle"
+          value={createWikiTitle}
+          onChange={handleCreateWikiTitleChange}
+        />
+        <input type="submit" value="Create" />
+      </form>
+      <form onSubmit={handleDeleteSubmit}>
+        <label htmlFor="createWikiTitle">Delete said wiki:</label>
+        <br />
+        {/* <input
+          type="text"
+          id="createWikiTitle"
+          name="createWikiTitle"
+          value={createWikiTitle}
+          onChange={handleCreateWikiTitleChange}
+        /> */}
+        <input type="submit" value="Delete" />
+      </form>
+    </>
   );
 }
