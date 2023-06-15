@@ -1,71 +1,12 @@
 export default function Index() {
   return (
-    <>
-      <h1>Neverwinter</h1>
-      <h2>Summary</h2>
-      <ul>
-        <li>
-          <strong>Population:</strong> 10,000
-        </li>
-        <li>
-          <strong>Location: </strong>{" "}
-          <a href="/wiki/sword_coast">Sword Coast</a> region of{" "}
-          <a href="/wiki/abdiel">Abdiel</a>
-        </li>
-      </ul>
-      <h2>Organizations</h2>
-      <ul>
-        <li>
-          <a href="/wiki/council-of-neverwinter">Council of Neverwinter</a>
-        </li>
-        <li>
-          <a href="/wiki/thieves-guild">Thieves Guild</a>
-        </li>
-      </ul>
-      <h2>List of Shops</h2>
-      <ul>
-        <li>
-          <a href="/wiki/jinshos_alchemical_droughts">
-            Jinshos Alchemical Droughts
-          </a>
-        </li>
-        <li>
-          <a href="/wiki/wayfarers_outfitters">Wayfarer&apos;s Outfitters</a>
-        </li>
-        <li>
-          <a href="/wiki/barthens_provisions">Barthen&apos;s Provision</a>
-        </li>
-        <li>
-          <a href="/wiki/potions_and_enchantments">Potions and Enchantments</a>
-        </li>
-        <li>
-          <a href="/wiki/prancing-mare">Prancing Mare</a>
-        </li>
-        <li>
-          <a href="/wiki/white-light">The White Light</a>
-        </li>
-      </ul>
-      <h2>Key People</h2>
-      <ul>
-        <a href="/wiki/delilah-merrison">
-          <li>Delilah Merrison</li>
-        </a>
-        <a href="">
-          <li>Somar Trench</li>
-        </a>
-        <a href="">
-          <li>Caspian Ren</li>
-        </a>
-        <a href="">
-          <li>Tiberius Crass</li>
-        </a>
-        <a href="">
-          <li>Koana Angar</li>
-        </a>
-        <a href="">
-          <li>Travis Gundark</li>
-        </a>
-      </ul>
+    <article>
+      <header>
+        <h1>Neverwinter</h1>
+        <p>
+          A town on the continent of Abdiel, located in the Sword Coast region.
+        </p>
+      </header>
       <h2>Description</h2>
       <p>
         As you approach Neverwinter, the first thing that catches your eye is
@@ -244,6 +185,70 @@ export default function Index() {
         inherits in Neverwinter by becoming a tribe member. (To be
         elaborated...)
       </p>
-    </>
+      <h2>Summary</h2>
+      <ul>
+        <li>
+          <strong>Population:</strong> 10,000
+        </li>
+        <li>
+          <strong>Location: </strong>{" "}
+          <a href="/wiki/sword_coast">Sword Coast</a> region of{" "}
+          <a href="/wiki/abdiel">Abdiel</a>
+        </li>
+      </ul>
+      <h2>Organizations</h2>
+      <ul>
+        <li>
+          <a href="/wiki/council-of-neverwinter">Council of Neverwinter</a>
+        </li>
+        <li>
+          <a href="/wiki/thieves-guild">Thieves Guild</a>
+        </li>
+      </ul>
+      <h2>List of Shops</h2>
+      <ul>
+        <li>
+          <a href="/wiki/jinshos_alchemical_droughts">
+            Jinshos Alchemical Droughts
+          </a>
+        </li>
+        <li>
+          <a href="/wiki/wayfarers_outfitters">Wayfarer&apos;s Outfitters</a>
+        </li>
+        <li>
+          <a href="/wiki/barthens_provisions">Barthen&apos;s Provision</a>
+        </li>
+        <li>
+          <a href="/wiki/potions_and_enchantments">Potions and Enchantments</a>
+        </li>
+        <li>
+          <a href="/wiki/prancing-mare">Prancing Mare</a>
+        </li>
+        <li>
+          <a href="/wiki/white-light">The White Light</a>
+        </li>
+      </ul>
+      <h2>Key People</h2>
+      <ul>
+        <a href="/wiki/delilah-merrison">
+          <li>Delilah Merrison</li>
+        </a>
+        <a href="">
+          <li>Somar Trench</li>
+        </a>
+        <a href="">
+          <li>Caspian Ren</li>
+        </a>
+        <a href="">
+          <li>Tiberius Crass</li>
+        </a>
+        <a href="">
+          <li>Koana Angar</li>
+        </a>
+        <a href="">
+          <li>Travis Gundark</li>
+        </a>
+      </ul>
+    </article>
   );
 }
